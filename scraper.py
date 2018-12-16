@@ -1,13 +1,13 @@
 
 user_agent = 'user-comment-scraper /u/bsomes2'
 
-secret = 'YJ6e3QPCYCmP0COCUWc28Ag1nrA'
+secret = 'Your secret here'
 
-id = 'LrnNRj0uyfoIrQ'
+id = 'your app id here'
 
 redirect = 'https://127.0.0.1:65010/authorize_callback'
 
-account_code = 'P-ejFBYnMuxo6nhNfab1wdEpTwc'
+account_code = 'P-code'
 
 app_scopes = [
     'creddits',
@@ -38,7 +38,7 @@ app_scopes = [
     'flair'
     ]
 
-refresh = '1091926979-s345mlrO57aIwPLzFgrjD1NJP-Y'
+refresh = 'your refresh token'
 
 def login():
     import praw
