@@ -35,7 +35,7 @@ def get_vectorizer(training_set):
 
 
 def get_troll_titles():
-    return pd.read_csv(os.path.normpath('./reddit-suspicious-accounts/data/submissions.csv')).title.values
+    return pd.read_csv(os.path.normpath('./suspicious_accounts/data/submissions.csv')).title.values
 
 
 def get_normal_titles():
